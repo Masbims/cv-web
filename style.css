@@ -53,9 +53,10 @@ table {
 	border-spacing: 0;
 }
 
+/* background */
 body {
   background-image: url(img/background.jpeg);
-  background-size: cover;
+  background-size: 100%;
 }
 
 .bg {
@@ -65,8 +66,11 @@ body {
 	right: 0;
   background-color: rgba(0, 0, 0, 0.5);
   position: fixed;
+  z-index: 1;
 }
+/* akhir background */
 
+/* navbar */
 ul {
   list-style-type: none;
   margin: 0;
@@ -95,6 +99,7 @@ li.portofolio {
   display: inline-block;
 }
 
+
 .dropdown-content {
 	display: none;
 	position: absolute;
@@ -117,3 +122,49 @@ li.portofolio {
 .portofolio:hover .dropdown-content {
   display: block;
 }
+
+/* akhir navbar */
+
+
+/* header */
+.container {
+	z-index: 5;
+	position: relative;
+	left: 500px;
+}
+
+.container img {
+	width: 150px;
+	border-radius: 50%;
+	margin: 50px;
+	box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 1.0);
+	
+}
+
+
+/* akhir header */
+
+
+
+
+
+
+/* clearfix */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+/* akhir clearfix */
