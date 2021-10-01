@@ -167,11 +167,11 @@ li.portofolio {
 
 /* main 2 */
 .kotak1 {
-	width: 400px;
+	width: 500px;
 	height: auto;
 }
-.kotak1 .main2 li {
-	display: inline-block;
+.kotak1 li {
+	margin: 10px;
 }
 /* akhir main 2 */
 
