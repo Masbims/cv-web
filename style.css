@@ -55,10 +55,7 @@ table {
 
 /* background */
 body {
-  background-image: url(img/background.jpeg);
-  background-size: 100%;
-  display: inline-block;
-  position: fixed;
+  background-image: url(img/bg5.png);
 }
 
 .bg {
@@ -125,7 +122,6 @@ li.portofolio {
 .portofolio:hover .dropdown-content {
   display: block;
 }
-
 /* akhir navbar */
 
 
@@ -143,20 +139,27 @@ li.portofolio {
 	box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 1.0);
 	
 }
-
-
 /* akhir header */
 
 
 /* main */
-
 .main p {
 	text-align: center;
-
 }
 /* akhir main */
 
+/* header 2 */
+.container2 {
+	margin-top: 30px;
+	text-decoration: underline;
+}
+/* akhir header 2 */
 
+/* main 2 */
+.main2 {
+	margin-top: 15px;
+}
+/* akhir main 2 */
 
 /* clearfix */
 .cf:before,
