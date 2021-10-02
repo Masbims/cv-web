@@ -175,12 +175,12 @@ li.portofolio {
 }
 
 ul .a {
-	list-style-position: outside;
+	
 }
 
 .kotak ul li {
+	list-style-position: inside;
 	display: block;
-	text-decoration: none;
 	text-align: left;
 	padding: 12px 16px;
 }
