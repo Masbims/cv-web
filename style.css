@@ -166,23 +166,27 @@ li.portofolio {
 /* akhir header 2 */
 
 /* main 2 */
-.kotak ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0px;
-  overflow: hidden;
-	width: 400px;
+.kotak1 {
+	width: 650px;
+	height: 400px;
+	background-color: gray;
+	opacity: 0.5;
+	margin-top: 38px;
+	margin-left: 10px;
 }
 
-ul .a {
-	
+.kotak1 ol li {
+	line-height: 20px;
+	padding: 12ox 16px;
+	list-style-type: none;
 }
 
-.kotak ul li {
-	list-style-position: inside;
-	display: block;
-	text-align: left;
-	padding: 12px 16px;
+.kotak2 {
+	width: 650px;
+	height: 400px;
+	background-color: gray;
+	opacity: 0.5;
+	margin-left: 670px;
 }
 /* akhir main 2 */
 
