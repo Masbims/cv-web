@@ -1,0 +1,204 @@
+u just use this in its unaltered state in your own projects. It should be tweaked, edited, extended, and otherwise tuned to match your specific reset baseline. Fill in your preferred colors for the page, links, and so on.
+
+In other words, this is a starting point, not a self-contained black box of no-touchiness.
+
+If you want to use my reset styles, then feel free! It's all explicitly in the public domain (I have to formally say that or else people ask me about licensing). You can grab a copy of the file to use and tweak as fits you best. If you're more of the copy-and-paste type, or just want an in-page preview of what you'll be getting, here it is.
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* background */
+body {
+	background-image: url(img/gambar.jpeg);
+	background-repeat: no-repeat;
+	background-color: black;
+	background-size: cover;
+}
+
+/* akhir background */
+
+/* navbar */
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+li {
+	float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropbtn:hover .dropbtn {
+  background-color: #04AA6D;
+}
+
+li.portofolio {
+  display: inline-block;
+}
+
+
+.dropdown-content {
+	display: none;
+	position: fixed;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.portofolio:hover .dropdown-content {
+  display: block;
+}
+/* akhir navbar */
+
+/* header */
+.header h1 {
+	text-align: center;
+}
+
+.header img {
+	position: relative;
+	left: 543px;
+	width: 150px;
+	border-radius: 50%;
+	margin: 100px 50px 10px;
+	box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 1.0);
+}
+/* akhir header */
+
+/* main */
+.main {
+	width: 800px;
+	display: inline-block;
+	margin-top: 30px;
+	margin-left: 270px;
+	margin-right: 270px;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 20px;
+}
+
+.main p {
+	text-align: center;
+	color: white;
+}
+/* akhir main */
+
+/* header 2 */
+.container2 {
+	margin-top: 50px;
+	text-decoration: underline;
+	text-align: center;
+}
+/* akhir header 2 */
+
+/* main 2 */
+.kotak1 {
+	width: 650px;
+	height: 400px;
+	background-color: rgba(0, 0, 0, 0.5);
+	margin-top: 38px;
+	margin-left: 10px;
+}
+
+.kotak1 p {
+	padding: 10px;
+}
+.kotak2 {
+	width: 650px;
+	height: 400px;
+	background-color: rgba(0, 0, 0, 0.5);
+	margin-left: 670px;
+}
+/* akhir main 2 */
+
+/* clearfix */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+/* akhir clearfix */
